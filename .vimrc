@@ -1,5 +1,4 @@
 call pathogen#infect()
-call pathogen#helptags()
 
 " Can't live without syntax hilighting
 if has("syntax")
