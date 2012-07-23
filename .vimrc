@@ -53,4 +53,5 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
+autocmd BufWritePre *.py :%s/\s\+$//e
 autocmd BufWritePost *.py call Flake8()
