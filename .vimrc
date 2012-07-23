@@ -53,3 +53,5 @@ if has("autocmd")
   filetype on
   filetype plugin indent on
 endif
+
+autocmd BufWritePost *.py call Flake8()
