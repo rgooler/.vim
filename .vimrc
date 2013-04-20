@@ -21,6 +21,9 @@ set matchpairs+=<:>
 " Don't care about legacy settings
 set nocompatible
 
+" Fix backspace in cygwin
+set backspace=2
+set backspace=indent,eol,start
 
 " Alter theme. Pray I do not alter it further
 set background=dark
