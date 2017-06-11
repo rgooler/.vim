@@ -8,7 +8,7 @@ To install this:
     ln -s ~/.vim/.vimrc ~/.vimrc 
     cd .vim
     git submodule update --init --recursive
-    git submodule foreach git pull origin master 
+    pip install flake8
 
 
 To keep it updated:
